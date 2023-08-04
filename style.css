@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: 'Cairo', 'Poppins';
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+}
+
+*::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-corner {
+    background-color: rgba(15 15 15);
+}
+
+body {
+    background-color: rgba(18 18 18);
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    zoom: 150%;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 100px;
+}
+
+input {
+    box-shadow: 0px 0px 10px black;
+    caret-color: rgba(255 59 92);
+    direction: rtl;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255 59 92 / 15%);
+    border: 1px solid rgba(255 59 92);
+    outline: none;
+}
+
+button {
+    box-shadow: 0px 0px 10px black;
+    margin-right: 15px;
+    padding: 8px 20px;
+    color: rgba(255 59 92);
+    background-color: rgba(255 59 92 / 15%);
+    border: 1px solid rgba(255 59 92);
+    border-radius: 4px;
+    font-size: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255 59 92 / 25%);
+}
+
+button:active {
+    background-color: rgba(255 59 92 / 35%);
+}
+
+.text-list {
+    margin-top: 20px;
+}
+
+.text-item {
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px black;
+    direction: rtl;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 715px;
+    padding: 7px 20px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255 59 92 / 15%);
+    border: 1px solid rgba(255 59 92);
+}
+
+.text-item button {
+    padding: 10px 20px;
+    color: rgba(255 59 92);
+    background-color: rgba(255 59 92 / 7%);
+    border: 1px solid rgba(255 59 92);
+    border-radius: 4px;
+    font-size: 20px;
+    margin-left: -10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.text-item button:hover {
+    background-color: rgba(255 59 92 / 20%);
+}
+
+.text-item button:active {
+    background-color: rgba(255 59 92 / 30%);
+}
+
+::placeholder {
+    color: rgba(255 59 92);
+}
+
+.text-item span {
+    font-size: 1.3em;
+    text-shadow: 0px 0px 10px black;
+}
